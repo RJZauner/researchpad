@@ -1,26 +1,20 @@
-## Getting Started
+# ResearchPad
 
-First, run the development server:
+A project that uses Next.js, TailwindCSS, framer motion, and TypeScript.
+
+The project includes a coming soon page with a waitlist E-Mail signup.
+
+## Run project locally
+
+After cloning the repo, install the npm packages:
+
+```bash
+npm install
+```
+
+un the development server:
 
 ```bash
 npm run dev
 ```
-## Outline
-* Research Component + Background
-* Develop Component + Variants
-* Write documentation
-* Write small article outlining Command palettes as a component
 
-## Command Palette Research
-* Trigger Shortcut
-* Search bar
-* Item List
-* Overlay
-* Extends Headless UI Combobox component
-
-## Resources
-* https://gaudion.dev/blog/nextjs-mdx-blog#1-setting-up-our-app 
-
-## Todo
-* Syntax Highlighting
-* ToC
