@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 
-const SampleSection = ({ blogs }: any) => {
+const SampleSection = ({ papers }: any) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -26,20 +26,20 @@ const SampleSection = ({ blogs }: any) => {
             <div className="mx-auto max-w-7xl mt-8">
               <div className="mx-auto max-w-2xl lg:max-w-none">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-                  {blogs.map((blog: any) => (
+                  {papers.map((paper: any) => (
                     <Link
-                      href={"/papers/" + blog.slug}
+                      href={"/papers/" + paper.slug}
                       passHref
-                      key={blog.slug}
+                      key={paper.slug}
                       className="bg-slate-50 rounded-3xl hover:bg-slate-100"
                     >
                       <div className="flex">
                         <article className="flex flex-col p-6 text-slate-900 relative w-full transition  sm:p-8">
                           <h3 className="text-2xl font-semibold">
-                            {blog.meta.title}
+                            {paper.meta.title}
                           </h3>
-                          <p className="mt-2">{blog.meta.date}</p>
-                          <p className="mt-4">{blog.meta.description}</p>
+                          <p className="mt-2">{paper.meta.date}</p>
+                          <p className="mt-4">{paper.meta.description}</p>
                         </article>
                       </div>
                     </Link>
