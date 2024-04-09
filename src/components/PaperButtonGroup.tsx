@@ -1,7 +1,7 @@
 const PaperButtonGroup = () => {
   return (
-    <div className="mt-12 grid grid-cols-1 gap-2">
-      <div>
+    <div className="mt-8 lg:flex lg:flex-row lg:space-x-2">
+      <div className="mt-1">
         <button className="bg-slate-900 text-slate-50 text-lg px-6 py-2 rounded-full hover:bg-slate-800">
           <span className="flex items-center">
             <svg
@@ -22,7 +22,7 @@ const PaperButtonGroup = () => {
           </span>
         </button>
       </div>
-      <div>
+      <div className="mt-1">
         <button className="bg-slate-900 text-slate-50 text-lg px-6 py-2 rounded-full hover:bg-slate-800">
           <span className="flex items-center">
             <svg
@@ -43,7 +43,7 @@ const PaperButtonGroup = () => {
           </span>
         </button>
       </div>
-      <div>
+      <div className="mt-1">
         <button className="bg-slate-900 text-slate-50 text-lg px-6 py-2 rounded-full hover:bg-slate-800">
           <span className="flex items-center">
             <svg
