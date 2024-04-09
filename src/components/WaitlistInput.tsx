@@ -4,7 +4,7 @@ const WaitlistInput = () => {
       <div className="min-w-full flex flex-col lg:flex-row flex-shrink-0 justify-center gap-4">
         <input
           placeholder="Enter Your E-Mail"
-          className="w-full lg:w-1/2 px-6 py-4 rounded-full bg-slate-100 text-slate-900 placeholder:text-slate-500 shadow-md text-lg"
+          className="w-full lg:w-1/2 px-6 py-4 rounded-full bg-slate-50 text-slate-900 placeholder:text-slate-500 shadow-md text-lg"
         />
         <button className="bg-slate-900 text-slate-50 text-lg px-6 py-2 rounded-full hover:bg-slate-800 w-fit">
           <span className="flex items-center">
