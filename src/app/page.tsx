@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/layout/Footer";
 import MainWindow from "@/components/Main";
 
 export default function Home() {
